@@ -510,7 +510,7 @@ with torch.no_grad():
         loss_LP_1, loss_LP_2, loss_LP_3, loss_LP_4, loss_LP_5 = [], [], [], [], []
         prompts, targets = generate_test_data(
             n_func=1000, n_seq_per_func=1,
-            n=15, d=3, d_max=3, beta=3 + 1.5,
+            n=16, d=3, d_max=3, beta=3 + 1.5,
             sigma=0.01, device=device
         )
         outputs = model(prompts)
@@ -527,7 +527,7 @@ with torch.no_grad():
 
         prompts, targets = generate_test_data(
             n_func=1000, n_seq_per_func=1,
-            n=20, d=3, d_max=3, beta=3 + 1.5,
+            n=21, d=3, d_max=3, beta=3 + 1.5,
             sigma=0.01, device=device
         )
         outputs = model(prompts)
@@ -544,7 +544,7 @@ with torch.no_grad():
 
         prompts, targets = generate_test_data(
             n_func=1000, n_seq_per_func=1,
-            n=25, d=3, d_max=3, beta=3 + 1.5,
+            n=26, d=3, d_max=3, beta=3 + 1.5,
             sigma=0.01, device=device
         )
         outputs = model(prompts)
@@ -561,7 +561,7 @@ with torch.no_grad():
 
         prompts, targets = generate_test_data(
             n_func=1000, n_seq_per_func=1,
-            n=30, d=3, d_max=3, beta=3 + 1.5,
+            n=31, d=3, d_max=3, beta=3 + 1.5,
             sigma=0.01, device=device
         )
         outputs = model(prompts)
@@ -578,7 +578,7 @@ with torch.no_grad():
 
         prompts, targets = generate_test_data(
             n_func=1000, n_seq_per_func=1,   
-            n=35, d=3, d_max=3, beta=3 + 1.5,
+            n=36, d=3, d_max=3, beta=3 + 1.5,
             sigma=0.01, device=device
         )
         outputs = model(prompts)
